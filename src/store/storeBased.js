@@ -19,7 +19,7 @@ export default class storeBased {
     
     /**
      * Устанавливает значение в стор c перезаписью остальных данных
-     * @param  {Object} object
+     * @param  {Object} Данные для записи
      */
     setStoreHard(object) {
         this.store = object;
